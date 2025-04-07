@@ -1,0 +1,12 @@
+name: 🧠 아이디어 메모
+description: 생각난 기능, 구조, 네이밍 등 메모용으로 사용하세요.
+title: "🧠 Note: "
+labels: ["note"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 💡 아이디어
+      placeholder: 떠오른 생각을 자유롭게 적어주세요.
+    validations:
+      required: false

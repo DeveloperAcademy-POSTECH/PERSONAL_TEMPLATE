@@ -1,0 +1,20 @@
+name: ♻️ 리팩토링
+description: 코드를 정리하거나 구조를 개선할 때 사용합니다.
+title: "♻️ Refactor: "
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: 📦 대상
+      placeholder: ex. ProfileViewModel 정리
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 🤔 이유
+      placeholder: 읽기 어려움, 역할 혼합 등
+    validations:
+      required: false
